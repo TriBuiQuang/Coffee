@@ -1,0 +1,38 @@
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+body {
+  background-image: url("../img/background-wood-p2.png");
+  background-size: 100% 100vh;
+}
+
+.img-slide-left{
+  position: relative;
+  z-index:100;
+}
+.img-slide-left-1 {
+  position: relative;
+  left: -20%;
+  z-index: 99;
+  transition: 1.5s;
+}
+.img-slide-left-2 {
+  position: relative;
+  left: -40%;
+  z-index: 98;
+  transition: 1.5s;
+}
+.img-slide-left-2:hover {
+  left: -20%;
+  transition: 1s;
+}
+.img-slide-left-1:hover {
+  left: 0%;
+  transition: 1s;
+}
+
+.imgslide-left{
+  
+}
