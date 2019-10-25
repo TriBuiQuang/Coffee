@@ -33,6 +33,34 @@ body {
   transition: 1s;
 }
 
-.imgslide-left{
-  
+.imgslide-left, .imgslide-left-1, .imgslide-left-2{
+  background-image: url(../img/Button-Coffee.png);
+  background-size: 451px 322px;
+  height: 322px;
+  position: relative;
+  background-repeat: no-repeat; 
 }
+.imgslide-left{
+  z-index: 100;
+}
+.imgslide-left-1{
+  z-index: 99;
+  left: -20%;
+  transition: 1s;
+}
+.imgslide-left-2{
+  z-index: 98;
+  left: -40%;
+  transition: 1s;
+}
+.imgslide-left > .img-slide, .imgslide-left-1 > .img-slide, .imgslide-left-2 > .img-slide {
+  width: 84%;
+  position: relative;
+  top: 13%;
+  left: 8%;
+  z-index: -1;
+}
+
+.imgslide-left-1:hover, .imgslide-left-2:hover{
+  margin-left: 15%;
+ }
