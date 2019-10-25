@@ -1,0 +1,125 @@
+* {
+   box-sizing:border-box;
+   margin:0;
+   padding:0;
+ }
+ body {
+   background-image: url("../img/background-wood-p2.png");
+   background-size: 100% 100vh;
+ }
+ 
+ /* .coffeebutton {
+   background-image: url(../img/testcoffee.jpg);
+   background-size: 75%;
+   background-position: 13% 45%; 
+   width: 25%;
+   position: relative;
+   background-repeat: no-repeat; 
+   margin-left: -7%;
+ }
+ .coffeebutton:nth-of-type(1) {
+   margin-left: 0%;
+   z-index: 100;
+ }
+ .coffeebutton:nth-of-type(2) {
+   z-index: 99;
+ }
+ .coffeebutton:nth-of-type(3) {
+   z-index: 98;
+ }
+ .coffeebutton:nth-of-type(4) {
+   z-index: 97;
+ }
+ .coffeebutton:nth-of-type(5) {
+   z-index: 96;
+ } */
+ 
+
+
+
+ /* test hide */
+
+ .coffeebutton {
+   background-image: url(../img/testcoffee.jpg);
+   background-size: 77%;
+   background-position: 36% 45%;
+   width: 25%;
+   position: relative;
+   background-repeat: no-repeat; 
+   margin-left: -18%;
+ }
+ .coffeebutton:nth-of-type(1) {
+   margin-left: 0%;
+   z-index: 100;
+ }
+ .coffeebutton:nth-of-type(2) {
+   z-index: 99;
+ }
+ .coffeebutton:nth-of-type(3) {
+   z-index: 98;
+ }
+ .coffeebutton:nth-of-type(4) {
+   z-index: 97;
+ }
+ .coffeebutton:nth-of-type(5) {
+   z-index: 96;
+ }
+ 
+
+ .coffeebutton:nth-of-type(2):hover {
+   margin-left: -7%;
+ }
+ .coffeebutton:nth-of-type(3):hover{
+   margin-left: -7%;
+ }
+ .coffeebutton:nth-of-type(4):hover{
+   margin-left: -7%;
+ }
+ .coffeebutton:nth-of-type(5):hover{
+   margin-left: -7%;
+ }
+
+
+ /* test button 2  */
+ .coffeebutton1 {
+   background-image: url(../img/testcoffee.jpg);
+   background-size: 77%;
+   background-position: 36% 45%;
+   width: 25%;
+   position: relative;
+   background-repeat: no-repeat; 
+   margin-left: -18%;
+ }
+ .coffeebutton1:nth-of-type(1) {
+   margin-left: 0%;
+   z-index: 100;
+ }
+ .coffeebutton1:nth-of-type(2) {
+   z-index: 99;
+ }
+ .coffeebutton1:nth-of-type(3) {
+   z-index: 98;
+ }
+ .coffeebutton1:nth-of-type(4) {
+   z-index: 97;
+ }
+ .coffeebutton1:nth-of-type(5) {
+   z-index: 96;
+ }
+ 
+
+ .coffeebutton1:nth-of-type(2):hover {
+   margin-left: -7%;
+ }
+ .coffeebutton1:nth-of-type(3):hover , .coffeebutton1:nth-of-type(3):hover + .coffeebutton1:nth-of-type(2) {
+   margin-left: -7%;
+ } 
+ .coffeebutton1:nth-of-type(3):hover .coffeebutton1:nth-of-type(2)::after {
+   margin-left: -7%;
+ }
+ .coffeebutton1:nth-of-type(4):hover{
+   margin-left: -7%;
+ }
+ .coffeebutton1:nth-of-type(5):hover{
+   margin-left: -7%;
+ }
