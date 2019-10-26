@@ -28,3 +28,30 @@ for (let i = 0; i < buttonCoffee.length; i++) {
    buttonCoffee[i].addEventListener('mouseover',() => mouseOver(i), false);
    buttonCoffee[i].addEventListener('mouseout',() => mouseOut(i), false);
 }
+
+
+// height middle
+
+resizeMiddle = () =>{
+   const summaryRightHeightFirst = $(".middle .col-md-12:nth-child(1) ").height();
+   const summaryRightHeightSecond = $(".middle .col-md-12:nth-child(2) ").height();
+  
+   console.log("heigt right",summaryRightHeightFirst, summaryRightHeightSecond )
+   $(".middle .col-md-5:nth-child(1) .card-body").css("height", summaryRightHeightFirst + summaryRightHeightSecond + "px");
+   
+}
+
+resizeMiddle1 = () => {
+   const summarySecondLeftHeight = $(".middle  .col-md-12:nth-child(3) .row .col-md-7 ").height();
+   $(".middle  .col-md-12:nth-child(3) .row .col-md-5 .card-body").css("height", summarySecondLeftHeight + "px" );
+   
+}
+
+$(window).on("load", function(){
+   resizeMiddle()
+   resizeMiddle1()
+});
+$(window).on("resize", function(){
+   resizeMiddle()
+   resizeMiddle1()
+});
