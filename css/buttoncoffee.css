@@ -97,29 +97,17 @@
  .coffeebutton1:nth-of-type(2) {
    z-index: 99;
  }
- .coffeebutton1:nth-of-type(3) {
+ .coffeebutton1:nth-of-type(3)  {
    z-index: 98;
  }
- .coffeebutton1:nth-of-type(4) {
+ .coffeebutton1:nth-of-type(4)  {
    z-index: 97;
  }
- .coffeebutton1:nth-of-type(5) {
+ .coffeebutton1:nth-of-type(5)  {
    z-index: 96;
  }
  
 
- .coffeebutton1:nth-of-type(2):hover {
-   margin-left: -7%;
- }
- .coffeebutton1:nth-of-type(3):hover , .coffeebutton1:nth-of-type(3):hover + .coffeebutton1:nth-of-type(2) {
-   margin-left: -7%;
- } 
- .coffeebutton1:nth-of-type(3):hover .coffeebutton1:nth-of-type(2)::after {
-   margin-left: -7%;
- }
- .coffeebutton1:nth-of-type(4):hover{
-   margin-left: -7%;
- }
- .coffeebutton1:nth-of-type(5):hover{
+ .coffeebutton1:nth-of-type(2):hover ,.coffeebutton1:nth-of-type(3):hover,  .coffeebutton1:nth-of-type(2)::before, .coffeebutton1:nth-of-type(4):hover, .coffeebutton1:nth-of-type(5):hover {
    margin-left: -7%;
  }
